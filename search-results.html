@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LuxeStay - Search Results</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Analytics 4 tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XXXXXXXXXX");
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo" onclick="window.location.href='index.html'">
+          <img
+            src="/api/placeholder/200/50?text=LuxeStay+Logo"
+            alt="LuxeStay Logo"
+            class="logo-image"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <h2>Luxury Hotels in London</h2>
+      <div id="hotel-list" class="hotel-list">
+        <!-- Hotel results will be dynamically inserted here -->
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 LuxeStay. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
